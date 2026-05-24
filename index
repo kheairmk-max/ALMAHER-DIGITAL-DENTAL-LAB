@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALMAHER DIGITAL DENTAL LAB</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#000;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:420px;
+background:#111;
+border:2px solid #d4af37;
+border-radius:30px;
+padding:35px 25px;
+text-align:center;
+box-shadow:0 0 30px rgba(212,175,55,0.3);
+}
+
+.logo{
+width:160px;
+margin:auto;
+margin-bottom:20px;
+}
+
+.logo img{
+width:100%;
+border-radius:20px;
+}
+
+h1{
+font-size:24px;
+color:#d4af37;
+margin-bottom:10px;
+}
+
+.names{
+font-size:16px;
+margin-bottom:8px;
+}
+
+.email{
+font-size:14px;
+margin-bottom:25px;
+color:#ccc;
+}
+
+.btn{
+display:block;
+width:100%;
+padding:15px;
+margin-bottom:15px;
+border-radius:15px;
+text-decoration:none;
+font-size:16px;
+font-weight:600;
+transition:0.3s;
+background:#d4af37;
+color:#000;
+}
+
+.btn:hover{
+background:white;
+transform:scale(1.03);
+}
+
+.footer{
+margin-top:20px;
+font-size:12px;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+<img src="logo.jpg" alt="Logo">
+</div>
+
+<h1>ALMAHER DIGITAL DENTAL LAB</h1>
+
+<div class="names">
+Maher Arafah<br>
+Rami Arafah
+</div>
+
+<div class="email">
+Dentallabalmaher@gmail.com
+</div>
+
+<a class="btn" href="https://www.instagram.com/almaher_dental_lab?igsh=MTdtM2F4dzVrNWViNw%3D%3D&utm_source=qr" target="_blank">
+Instagram
+</a>
+
+<a class="btn" href="https://wa.me/962795616672" target="_blank">
+WhatsApp Maher
+</a>
+
+<a class="btn" href="https://wa.me/962796550573" target="_blank">
+WhatsApp Rami
+</a>
+
+<a class="btn" href="https://maps.app.goo.gl/4AEDu3sSrgCXA78E9?g_st=iw" target="_blank">
+Google Maps
+</a>
+
+<div class="footer">
+© 2026 ALMAHER DIGITAL DENTAL LAB
+</div>
+
+</div>
+
+</body>
+</html>
